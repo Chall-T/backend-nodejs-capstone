@@ -6,7 +6,7 @@ const expressPino = require("express-pino-logger")({ logger });
 const natural = require("natural");
 
 const app = express();
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use(expressPino);

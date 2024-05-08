@@ -27,7 +27,7 @@ app.use("/api/secondchance/items", secondChanceItemsRoutes);
 
 // authRoutes Step 2: import the authRoutes and store in a constant called authRoutes
 app.use("/api/auth", authRoutes);
-
+app.use(express.static("public"));
 // Items API Task 1: import the secondChanceItemsRoutes and store in a constant called secondChanceItemsRoutes
 //{{insert code here}}
 
